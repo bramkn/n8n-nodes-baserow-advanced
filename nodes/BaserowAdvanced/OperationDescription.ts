@@ -212,7 +212,6 @@ export const operationFields: INodeProperties[] = [
 		description: 'Max number of results to return',
 		typeOptions: {
 			minValue: 1,
-			maxValue: 100,
 		},
 		displayOptions: {
 			show: {

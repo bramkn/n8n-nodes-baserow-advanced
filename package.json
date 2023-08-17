@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-baserow-advanced",
   "version": "0.1.0",
-  "description": "",
+  "description": "Copy of the baserow node with added batch functionality using the batch options of the API",
   "keywords": [
     "n8n-community-node-package"
   ],
@@ -43,5 +43,8 @@
     "n8n-workflow": "*",
     "prettier": "^2.7.1",
     "typescript": "~4.8.4"
+  },
+  "dependencies": {
+    "eslint": "^8.47.0"
   }
 }
